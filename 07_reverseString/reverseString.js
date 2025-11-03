@@ -7,7 +7,8 @@ const reverseString = function(str) {
   
   return reversedStr;
 
- 
+ // Solution given is much shorter
+ // ** return string.split("").reverse().join(""); **
 }
 
 console.log(reverseString("hello there"));
